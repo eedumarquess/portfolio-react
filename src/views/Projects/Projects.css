@@ -11,20 +11,22 @@
   box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.25);
   padding: 20px 10px;
   margin: 5px 20px;
+  width: 90%;
+  max-width: 700px;
 }
 
 .projects-text > h1 {
   text-align: center;
   margin: 4px;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
 }
 
 .projects-text > p {
   text-align: center;
   color: #1B98E0;
-  margin: 8px;
-  font-size: 26px;
+  margin: 4px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -35,16 +37,4 @@
   align-items: center;
   margin: 0px 20px 0px 20px;
   padding: 0px 20px 0px 20px;
-}
-
-@media screen and (min-width: 485px) {
-  .projects-text {
-    width: 90%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .projects-text {
-    width: 65%;
-  }
 }

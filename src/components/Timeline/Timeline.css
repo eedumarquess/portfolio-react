@@ -86,11 +86,11 @@
 }
 
 .card:nth-child(odd) > .info > .title::before {
-  left: -50px;
+  left: -51px;
 }
 
 .card:nth-child(even) > .info > .title::before {
-  right: -50px;
+  right: -51px;
 }
 
 .icons-language {

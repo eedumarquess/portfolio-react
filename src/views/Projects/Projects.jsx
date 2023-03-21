@@ -36,11 +36,6 @@ function Projects() {
           projectTitle="Peak Invest"
           projectLink="https://www.peakinvest.com.br"
         />
-        <Card 
-          projectImage="github"
-          projectTitle="My Github"
-          projectLink="https://www.github.com/eedumarquess"
-        />
       </div>
     </div>
   );

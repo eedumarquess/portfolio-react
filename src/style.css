@@ -11,7 +11,9 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  scroll-behavior: smooth;
 }
+
 
 body {
   font-family: "LeagueSpartan";

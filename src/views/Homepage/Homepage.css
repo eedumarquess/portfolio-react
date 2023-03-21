@@ -19,8 +19,7 @@
   align-items: center;
 }
 
-.profile-image {
-  background: white;
+.homepage-image > img {
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -88,13 +87,19 @@
     text-decoration: none;
   }
 
+  #nav > a:link,
+  #nav > a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
   #nav > a:visited {
     padding: 5px;
     text-decoration: none;
     color: white;
   }
 
-  .profile-image {
+  .homepage-image > img {
     background: white;
     width: 250px;
     height: 250px;
