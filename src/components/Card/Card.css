@@ -1,0 +1,89 @@
+.card-body {
+  position: relative;
+  max-width: 600px;
+}
+
+.card-body:nth-child(odd) {
+  padding: 30px 0 30px 30px;
+}
+.card-body:nth-child(even) {
+  padding: 30px 30px 30px 0;
+}
+
+.card-body::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: solid #1B98E0;
+}
+
+.card-body:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+
+.card-body:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+
+.card-body:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+
+.card-body:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+.card-body:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #fff;
+  padding: 30px
+}
+
+.card-image > img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  margin: 2px 0px;
+  padding: 8px;
+  border-radius: 0px 0px 8px 8px;
+  background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
+  box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.25)
+}
+
+
+.project-title {
+  font-size: 20px;
+  margin: 8px 0px 4px 2px;
+  color: #fff;    
+}
+
+.project-link {
+  font-size: 16px;
+  margin: 4px 0px 8px 2px;
+  color: #1B98E0;
+}
+
+.card-body > a {
+  text-decoration: none;
+  color: #fff;
+}
